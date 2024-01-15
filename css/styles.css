@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap");
+
+:root {
+  --colorLight: #e0e1e8;
+  --colorDark: #221d17;
+  --colorBase: #5a381b;
+  --colorBaseL: #ecce9e;
+  --colorAccent: #a0302d;
+
+  --fontAccent: "Sofia Sans Semi Condensed, sans-serif";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: var(--colorBaseL);
+  font-size: 1.2rem;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: var(--colorLight);
+  font-family: "EB Garamond", serif;
+}
+.header {
+  background-color: var(--colorDark);
+  background-image: url(../images/main.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 410px;
+  color: var(--colorBaseL);
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 10px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 150px;
+  margin: 120px 50px;
+}
+.frame {
+  display: flex;
+  justify-content: center;
+  /* margin: 100px 0 0 100px; */
+  border-bottom: 3px solid var(--colorBaseL);
+  border-right: 3px solid var(--colorBaseL);
+  width: 241px;
+  height: 117px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
+.cupcake {
+  margin-top: 10px;
+}

@@ -36,21 +36,26 @@ body {
   height: 410px;
   color: var(--colorBaseL);
 }
-.nav {
+.nav ul{
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px;
-  gap: 10px;
+  gap: 20px;
 }
 .title {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 250px;
-  height: 150px;
-  margin: 120px 50px;
+  width: 260px;
+  height: 260px;
+  margin: 20px 50px;
+  background-color: var(--colorDark);
+}
+
+#slogan {
+  font-size: 24px;
 }
 .frame {
   display: flex;

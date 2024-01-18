@@ -28,21 +28,23 @@ body {
   background-color: var(--colorLight);
   font-family: "EB Garamond", serif;
 }
+.head-top {
+  padding: 5px 0; 
+  background-color: var(--colorDark);
+}
 .header {
   background-color: var(--colorDark);
-  background-image: url(../images/main.jpg);
+  background-image: url(../images/main.jpg) radial-gradient(circle, rgba(34,29,23,1) 100%, rgba(34,29,23,0) 0%);;
   background-repeat: no-repeat;
   background-position: right;
   height: 410px;
   color: var(--colorBaseL);
 }
-.nav ul{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px;
-  gap: 20px;
-}
+/* .nav ul{
+  
+  /* padding: 30px;
+  gap: 20px; 
+} */
 .title {
   display: flex;
   flex-direction: column;

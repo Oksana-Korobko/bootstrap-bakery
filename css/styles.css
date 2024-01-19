@@ -17,7 +17,7 @@
 }
 a {
   text-decoration: none;
-  color: var(--colorBaseL);
+  color: var(--colorBase);
   font-size: 1.2rem;
 }
 ul {
@@ -27,10 +27,23 @@ ul {
 body {
   background-color: var(--colorLight);
   font-family: "EB Garamond", serif;
+  color: var(--colorBase);
 }
 .head-top {
   padding: 5px 0;
-  background-color: var(--colorDark);
+  background-color: var(--colorLight);
+  
+}
+#sale {
+  font-style: italic;
+  font-size: 14pt;
+  color: var(--colorBase);
+}
+  
+.head-top-left {
+  height: 30px;
+  color: var(--colorBase);
+
 }
 .header {
   background-color: var(--colorDark);
@@ -41,11 +54,17 @@ body {
   height: 410px;
   color: var(--colorBaseL);
 }
-/* .nav ul{
-  
-  /* padding: 30px;
-  gap: 20px; 
-} */
+
+.menu {
+  gap: 20px;
+  margin-top: 20px;
+
+}
+.menuItem {
+  color: var(--colorBaseL);  
+}
+
+
 .title {
   display: flex;
   flex-direction: column;

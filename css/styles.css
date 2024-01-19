@@ -63,7 +63,10 @@ body {
 .menuItem {
   color: var(--colorBaseL);  
 }
-
+.menuItem:hover {
+  color: var(--colorLight); 
+  transition: 0.5 all ease; 
+}
 
 .title {
   display: flex;

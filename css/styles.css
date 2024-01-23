@@ -60,9 +60,10 @@ body {
   }
 }
 
-.head-top-left {
+.head-top-right {
   max-height: 30px;
   color: var(--colorBase);
+  gap: 10px;
 }
 .header {
   background-color: var(--colorDark);

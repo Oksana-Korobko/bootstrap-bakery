@@ -33,14 +33,35 @@ body {
   padding: 5px 0;
   background-color: var(--colorLight);
 }
-#sale {
+
+.sale {
+  overflow: hidden;
+  max-height: 30px;
+}
+.sale div {
+  animation: running-text 15s linear infinite;
+}
+.text {
   font-style: italic;
   font-size: 14pt;
   color: var(--colorBase);
+  display: inline-block;
+  padding: 0px 15px;
+  text-align: center;
+  margin: 0;
+}
+
+@keyframes running-text {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .head-top-left {
-  height: 30px;
+  max-height: 30px;
   color: var(--colorBase);
 }
 .header {

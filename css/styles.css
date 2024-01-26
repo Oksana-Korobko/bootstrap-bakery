@@ -152,3 +152,9 @@ footer .logo figcaption {
   color: var(--colorLight);
   transition: 0.5 all ease;
 }
+
+footer form button {
+  background: transparent;
+  border: none;
+  outline: none;
+}

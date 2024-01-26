@@ -86,6 +86,9 @@ body {
   color: var(--colorLight);
   transition: 0.5 all ease;
 }
+.menuItem .active {
+  color: var(--colorLight);
+}
 
 .title {
   display: flex;
@@ -115,4 +118,37 @@ body {
 }
 .cupcake {
   margin-top: 10px;
+}
+/* MAIN */
+main {
+  height: 200px;
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--colorDark);
+  color: var(--colorBaseL);
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer .logo a {
+  scroll-behavior: smooth;
+}
+
+footer .logo figcaption {
+  font-size: 1.125rem;
+  line-height: 25px;
+}
+
+.menuFooter {
+  color: var(--colorBaseL);
+  margin-bottom: 18px;
+}
+.menuFooter:active {
+  color: var(--colorLight);
+}
+.menuFooter:hover {
+  color: var(--colorLight);
+  transition: 0.5 all ease;
 }

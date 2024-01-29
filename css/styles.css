@@ -121,8 +121,33 @@ body {
 }
 /* MAIN */
 main {
-  height: 200px;
+  min-height: 200px;
+  padding: 0;
+  color: var(--colorDark);
 }
+ 
+.mainBlock {
+  border-top: 2px solid var(--colorBaseL);
+  margin-top: 5px;  
+}
+
+.mainBlock h1 {
+  color: var(--colorAccent);
+  text-align: center;
+  font-family: Sofia Sans Semi Condensed, sans-serif;
+  text-transform: uppercase;
+}
+ 
+.card {
+  border: 1px solid var(--colorBaseL);
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.card:hover{
+  transform: translateY(-6px);
+  transition: all 0.7s ease;
+}
+
 
 /* FOOTER */
 footer {

@@ -149,6 +149,26 @@ main {
   transition: all 0.7s ease;
 }
 
+.card-title {
+  color: var(--colorAccent);
+}
+
+.cardItem {
+  padding: 10px 10px 20px 10px;
+  border: 1px solid var(--colorAccent);
+}
+
+.btnTry {
+  background-color: var(--colorBase);
+  color: var(--colorBaseL);
+  border-radius: 10px;
+  padding: 5px 8px;
+}
+
+.btnTry:hover {
+  background-color: var(--colorDark);
+}
+
 .choice {
   color: var(--colorBase);
   font-size: 18px;

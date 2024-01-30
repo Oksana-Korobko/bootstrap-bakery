@@ -125,10 +125,10 @@ main {
   padding: 0;
   color: var(--colorDark);
 }
- 
+
 .mainBlock {
   border-top: 2px solid var(--colorBaseL);
-  margin-top: 5px;  
+  margin-top: 5px;
 }
 
 .mainBlock h1 {
@@ -137,17 +137,26 @@ main {
   font-family: Sofia Sans Semi Condensed, sans-serif;
   text-transform: uppercase;
 }
- 
+
 .card {
+  min-width: 150px;
   border: 1px solid var(--colorBaseL);
   box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
 }
 
-.card:hover{
+.card:hover {
   transform: translateY(-6px);
   transition: all 0.7s ease;
 }
 
+.choice {
+  color: var(--colorBase);
+  font-size: 18px;
+}
+
+.choice h3 {
+  text-transform: uppercase;
+}
 
 /* FOOTER */
 footer {
@@ -197,10 +206,10 @@ footer form button {
 }
 
 .social {
-  margin-top: 30px;  
+  margin-top: 30px;
   padding: 0 20px;
 }
 
-.social a img{
- width: 40px;
+.social a img {
+  width: 40px;
 }

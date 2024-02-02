@@ -48,27 +48,35 @@
             </div>
 
             <div class="row header">
+              <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
-                    <ul class="menu d-flex justify-content-around align-items-center p-30 ">
-                        <li>
-                            <a href="#" class = "menuItem">
-                                <div class="cupcake">
-                                    <img src="./images/Cupcake.svg" alt="cupcake">
-                                </div>
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="#" class = "menuItem">Асортимент</a>
-                        </li>
-                        <li>
-                            <a href="#" class = "menuItem">Магазин</a>
-                        </li>
-                        <li>
-                            <a href="#" class = "menuItem">Рецепти</a>
-                        </li>
+                  <button class="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon burger"></span>
+                  </button>
+                  <div class="collapse navbar-collapse menu  " id="navbarTogglerDemo01">
+                    <a class="navbar-brand menuItem " href="#">
+                      <div class="cupcake">
+                        <img src="./images/Cupcake.svg" alt="cupcake">
+                    </div>
+                    </a>
+                    <ul class="navbar-nav  p-30 gap-5">
+                      <li class="nav-item">
+                        <a class="menuItem" aria-current="page" href="#">Асортимент</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="menuItem" href="#">Магазин</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="menuItem" href="#">Рецепти</a>
+                      </li> 
+                      <li class="nav-item">
+                        <a class="menuItem" href="#">Контакти</a>
+                      </li>               
                     </ul>
+                    
+                  </div>
                 </div>
+              </nav>
                 <div class="title">
                     <div class="frame">                    
                         <h1>Марусина пекарня</h1>
@@ -86,6 +94,7 @@
         </div>
         
     </header>
+
 
     <main class="container-fluid">
         <div class="container-fluid novelty mainBlock mb-3 pt-5">
@@ -170,23 +179,23 @@
             </div>
         </div>
         
-        <div class="container-fluid shops mainBlock mt-5 pt-5">
+        <div class="container-fluid  mainBlock mt-5 pt-5">
             <h1>Наші переваги</h1>
-            <div class="container">      
-                <div class="row row-cols-3 ">
+            <div class="container mt-5">      
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 ">
                   <div class="col choice">
                    
-                    <h3>Свіжість і якість</h3>
+                    <h5>Свіжість і якість</h5>
                     <p>Ми використовуємо тільки найкращі інгредієнти та дотримуємося високих стандартів якості, щоб кожен кусочок випічки був справжнім шедевром</p>
                   </div>
                   <div class="col choice">
                    
-                    <h3>Різноманіття</h3>
+                    <h5>Різноманіття</h5>
                     <p>  У нашому асортименті ви знайдете рулети, булочки, пироги, тістечка, кекси та багато інших видів випічки, щоб задовольнити будь-який смак </p>
                   </div>
                   <div class="col choice">
                    
-                    <h3>Солодке задоволення</h3>
+                    <h5>Солодке задоволення</h5>
                     <p>Наші десерти - це справжня насолода! Вони вражають не лише смаком, але й виглядом, що робить їх ідеальними для будь-якого свята або просто задоволення солодкого пристрасті</p>
                   </div>
                   

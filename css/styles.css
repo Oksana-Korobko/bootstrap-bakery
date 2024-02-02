@@ -79,6 +79,13 @@ body {
   margin-top: 20px;
   background-color: var(--colorDark);
 }
+
+.burger {
+  background-color: var(--colorBaseL) !important;
+}
+.cupcake {
+  margin-left: 130px;
+}
 .menuItem {
   color: var(--colorBaseL);
 }
@@ -89,6 +96,9 @@ body {
 .menuItem .active {
   color: var(--colorLight);
 }
+
+
+
 
 .title {
   display: flex;
@@ -172,11 +182,16 @@ main {
 .choice {
   color: var(--colorBase);
   font-size: 18px;
+  min-width: 150px;
 }
 
-.choice h3 {
+.choice h5 {
   text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
 }
+
+
 
 /* FOOTER */
 footer {

@@ -101,10 +101,7 @@ body {
 
 
 .title {
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 260px;
   height: 260px;
   margin: 0px 50px;

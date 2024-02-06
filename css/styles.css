@@ -97,9 +97,6 @@ body {
   color: var(--colorLight);
 }
 
-
-
-
 .title {
   flex-direction: column;
   width: 260px;
@@ -154,6 +151,7 @@ main {
 .card:hover {
   transform: translateY(-6px);
   transition: all 0.7s ease;
+  cursor: pointer;
 }
 
 .card-title {
@@ -188,8 +186,6 @@ main {
   font-weight: 600;
 }
 
-
-
 /* FOOTER */
 footer {
   background-color: var(--colorDark);
@@ -207,9 +203,12 @@ footer .logo figcaption {
   line-height: 25px;
 }
 
+.menu {
+  text-align: start;
+}
+
 .menuFooter {
   color: var(--colorBaseL);
-  margin-bottom: 18px;
 }
 .menuFooter:active {
   color: var(--colorLight);

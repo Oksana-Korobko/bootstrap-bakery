@@ -76,13 +76,21 @@ body {
 
 .menu {
   gap: 20px;
+  z-index: 1;
   margin-top: 20px;
   background-color: var(--colorDark);
 }
 
+
 .burger {
   background-color: var(--colorBaseL) !important;
+  border: none;
+  box-shadow: none !important;
 }
+.burger:focus {
+  box-shadow: none !important;
+}
+
 .cupcake {
   margin-left: 130px;
 }
@@ -98,10 +106,11 @@ body {
 }
 
 .title {
+  position: absolute;
   flex-direction: column;
   width: 260px;
   height: 260px;
-  margin: 0px 50px;
+  margin: 120px 50px;
   background-color: var(--colorDark);
   opacity: 0.8;
 }

@@ -142,7 +142,7 @@ main {
   margin-top: 5px;
 }
 
-.mainBlock h1 {
+h1 {
   color: var(--colorAccent);
   text-align: center;
   font-family: Sofia Sans Semi Condensed, sans-serif;
@@ -163,6 +163,7 @@ main {
 
 .card-title {
   color: var(--colorAccent);
+  margin: 10px;
 }
 
 .cardItem {
@@ -187,7 +188,7 @@ main {
   min-width: 150px;
 }
 
-.choice h5 {
+h4 {
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;

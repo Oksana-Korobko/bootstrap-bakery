@@ -49,6 +49,7 @@ body {
   padding: 0px 15px;
   text-align: center;
   margin: 0;
+  
 }
 
 @keyframes running-text {
@@ -56,14 +57,14 @@ body {
     transform: translateX(100%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-150%);
   }
 }
 
 .head-top-right {
   max-height: 30px;
   color: var(--colorBase);
-  gap: 10px;
+  /* gap: 10px; */
 }
 .header {
   background-color: var(--colorDark);

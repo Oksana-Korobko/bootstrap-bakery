@@ -49,7 +49,6 @@ body {
   padding: 0px 15px;
   text-align: center;
   margin: 0;
-  
 }
 
 @keyframes running-text {
@@ -127,6 +126,9 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
+.frame h1 {
+  color: var(--colorBaseL);
 }
 .cupcake {
   margin-top: 10px;

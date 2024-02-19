@@ -99,8 +99,9 @@ body {
   color: var(--colorLight);
   transition: 0.5 all ease;
 }
-.menuItem .active {
+.active {
   color: var(--colorLight);
+  font-weight: 600;
 }
 
 .title {

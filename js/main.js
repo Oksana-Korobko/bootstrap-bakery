@@ -12,7 +12,8 @@ window.addEventListener('DOMContentLoaded', () => {
     function hideContent () {
        
         pages.forEach(item => {
-            item.style.display = 'none';
+            item.classList.add('hide');
+            item.classList.remove('show', 'fade')
         })
        
         navPages.forEach(item => {
@@ -22,7 +23,8 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     function showPage (i=0) {
-        pages[i].style.display = "block";
+        pages[i].classList.add("show", "fade");
+        pages[i].classList.remove("hide");
         navPages[i].classList.add("active");
     }
     console.log(parentPage)

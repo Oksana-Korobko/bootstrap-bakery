@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
 
     const pages = document.querySelectorAll('.page'),
-          navPages = document.querySelectorAll('.menuItem ')
+          navPages = document.querySelectorAll('.navItem')
         // novelty = document.querySelector('.novelty'),
         // map = document.querySelector('map'),
         // contacts = document.querySelector('contacts'),
@@ -9,16 +9,21 @@ window.addEventListener('DOMContentLoaded', () => {
         // advantages = document.querySelector('advantages');
     
     function hideContent () {
-        pages.forEach(item, ()=> {
+       
+        pages.forEach(item => {
             item.style.display = 'none';
         })
-        navPages.forEach(item, () => {
-            item.classlist.remove('active')
+       
+        navPages.forEach(item => {
+            
+            item.classList.remove('active')
         })
     }
 
-    function showPage (i) {
+    function showPage (i=0) {
         pages[i].style.display = "block";
-        navPages[i].classlist.add('active')
+        navPages[i].classlist.add('active');
     }
+
+    hideContent();
 })

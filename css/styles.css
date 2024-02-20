@@ -101,7 +101,7 @@ body {
 }
 .active {
   color: var(--colorLight);
-  font-weight: 600;
+  
 }
 
 .title {

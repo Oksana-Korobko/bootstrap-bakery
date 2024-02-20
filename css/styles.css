@@ -94,14 +94,15 @@ body {
 }
 .menuItem {
   color: var(--colorBaseL);
+  font-size: 1.2rem;
 }
 .menuItem:hover {
   color: var(--colorLight);
   transition: 0.5 all ease;
+  cursor: pointer;
 }
 .active {
   color: var(--colorLight);
-  
 }
 
 .title {

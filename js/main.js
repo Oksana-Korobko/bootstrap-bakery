@@ -40,6 +40,7 @@ window.addEventListener('DOMContentLoaded', () => {
             })
         }
     })
-
+    hideContent();
+    showPage(0);
     
 })

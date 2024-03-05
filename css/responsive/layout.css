@@ -8,4 +8,15 @@
   .frame {
     padding: 0 30px;
   }
+  .catalogueItem img {
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 767px) {
+.catalogueChoice {
+    visibility: hidden !important;
+  }
+
 }

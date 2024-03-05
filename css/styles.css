@@ -213,7 +213,7 @@ h1 {
   height: 50px; 
   border: 1px solid var(--colorBaseL);
   border-radius: 15px;
-  margin-top: 15px;  
+  margin: 8px 0;  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -231,10 +231,12 @@ h1 {
 .catalogueChoice {
   color: var(--colorBase);
   font-size: 18px;
-  min-width: 200px;
+  max-width: 200px; 
   flex-direction: column;
   border: 2px solid var(--colorAccent);
   border-radius: 10px;
+  display: block;
+  background-color: var(--colorBaseL);
   
 }
 .choiceImg {
@@ -261,6 +263,11 @@ h4 {
 }
 .catalogueItem img {
   border: 1px solid var(--colorAccent);
+}
+.countInput{
+  width: 40px;
+  padding-left: 5px;
+  border-color: var(--colorBaseL);
 }
 
 

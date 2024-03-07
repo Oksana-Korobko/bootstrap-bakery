@@ -296,7 +296,7 @@ footer .logo figcaption {
   color: var(--colorBaseL);
   width: fit-content;
 }
-.menuFooter:active {
+.menuFooter.active {
   color: var(--colorLight);
 }
 .menuFooter:hover {

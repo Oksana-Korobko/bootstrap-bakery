@@ -201,19 +201,19 @@
             <img class="choiceImg" src="./images/bun1.jpg" alt="">
           </div>
           <div class="catalogueNav col-10 col-md-9 ">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-12 gap-2 d-flex justify-content-around align-items-center ">
+            <div class="categoryNav row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-12 gap-2 d-flex justify-content-around align-items-center ">
               
-                <div class="catalogueItems active">Булочки</div>
+                <div class="catalogueItems active" data-category = "bun">Булочки</div>
             
-                <div class="catalogueItems">Пиріжки</div>
+                <div class="catalogueItems" data-category = "patty">Пиріжки</div>
               
-                <div class="catalogueItems ">Рогалики</div>
+                <div class="catalogueItems" data-category = "crescent">Рогалики</div>
               
-                <div class="catalogueItems">Рулети</div>
+                <div class="catalogueItems" data-category = "roll">Рулети</div>
               
-                <div class="catalogueItems">Слойки</div>
+                <div class="catalogueItems" data-category = "puff">Слойки</div>
               
-                <div class="catalogueItems">Круасани</div>
+                <div class="catalogueItems" data-category = "croissant">Круасани</div>
               
             </div>
             
@@ -222,6 +222,9 @@
 
         <div class="catalogueBlock container mainBlock mb-3 pt-5 ">
           <div class="catalogueList">
+
+            <!-- Формування списку товарів заданої категорії -->
+
             <div class="catalogueItem d-flex gap-3 align-items-center justify-content-start">
                 <div class="photo"><img src="./images/bun1.jpg" alt=""></div>
                 <div class="description">

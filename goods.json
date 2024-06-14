@@ -1,0 +1,148 @@
+[
+    {
+        "title":"Булочка з корицею",
+        "img":"./images/bun1.jpg",
+        "category":"bun",
+        "price":"15"
+    },
+    {
+        "title":"Булочка з ягодами",
+        "img":"./images/bun2.jpg",
+        "category":"bun",
+        "price":"18"
+    },
+    {
+        "title":"Медова булочка",
+        "img":"./images/bun3.jpg",
+        "category":"bun",
+        "price":"14"
+    },
+    {
+        "title":"Цукровий крендель",
+        "img":"./images/bun4.jpg",
+        "category":"bun",
+        "price":"10"
+    },
+    {
+        "title":"Рогалик з бананом",
+        "img":"./images/crescent1.jpg",
+        "category":"crescent",
+        "price":"15"
+    },
+    {
+        "title":"Рогалик з куркою",
+        "img":"./images/crescent2.jpg",
+        "category":"crescent",
+        "price":"25"
+    },
+    {
+        "title":"Рогалик з сиром",
+        "img":"./images/crescent3.jpg",
+        "category":"crescent",
+        "price":"16"
+    },
+    {
+        "title":"Рогалик з кремом",
+        "img":"./images/crescent4.jpg",
+        "category":"crescent",
+        "price":"14"
+    },
+    {
+        "title":"Круасан з горіховим кремом",
+        "img":"./images/croissant1.jpg",
+        "category":"croissant",
+        "price":"20"
+    },
+    {
+        "title":"Круасан з вершковим кремом",
+        "img":"./images/croissant2.jpg",
+        "category":"croissant",
+        "price":"15"
+    },
+    {
+        "title":"Круасан з шинкою",
+        "img":"./images/croissant3.jpg",
+        "category":"croissant",
+        "price":"30"
+    },
+    {
+        "title":"Круасан з сиром",
+        "img":"./images/croissant4.jpg",
+        "category":"croissant",
+        "price":"25"
+    },
+    {
+        "title":"Пиріжок з капустою",
+        "img":"./images/patty1.jpg",
+        "category":"patty",
+        "price":"12"
+    },
+    {
+        "title":"Пиріжок з м'ясом",
+        "img":"./images/patty2.jpg",
+        "category":"patty",
+        "price":"20"
+    },
+    {
+        "title":"Пиріжок з грибами",
+        "img":"./images/patty3.jpg",
+        "category":"patty",
+        "price":"18"
+    },
+    {
+        "title":"Слойка з джемом",
+        "img":"./images/puff1.jpg",
+        "category":"puff",
+        "price":"12"
+    },
+    {
+        "title":"Слойка з шинкою",
+        "img":"./images/puff2.jpg",
+        "category":"puff",
+        "price":"25"
+    },
+    {
+        "title":"Слойка з куркою",
+        "img":"./images/puff3.jpg",
+        "category":"puff",
+        "price":"25"
+    },
+    {
+        "title":"Слойка з сиром і грибами",
+        "img":"./images/puff4.jpg",
+        "category":"puff",
+        "price":"25"
+    },
+    {
+        "title":"Слойка ягідна",
+        "img":"./images/puff5.jpg",
+        "category":"puff",
+        "price":"18"
+    },
+    {
+        "title":"Рулет з маком",
+        "img":"./images/roll1.jpg",
+        "category":"roll",
+        "price":"78"
+    },
+    {
+        "title":"Рулет з вишнею",
+        "img":"./images/roll2.jpg",
+        "category":"roll",
+        "price":"69"
+    },
+    {
+        "title":"Рулет з клюквою",
+        "img":"./images/roll3.jpg",
+        "category":"roll",
+        "price":"69"
+    },
+    {
+        "title":"Рулет з грибами",
+        "img":"./images/roll4.jpg",
+        "category":"roll",
+        "price":"95"
+    }
+
+
+]

@@ -2,7 +2,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const pages = document.querySelectorAll('.page'),
           navPages = document.querySelectorAll('.navItem'),
-          parentPage = document.querySelector('.parentPage')
+          parentPage = document.querySelector('.parentPage'),
+          catalogueItems = document.querySelectorAll('.catalogueItems'),
+          categoryNav = document.querySelector('.categoryNav')
         // novelty = document.querySelector('.novelty'),
         // map = document.querySelector('map'),
         // contacts = document.querySelector('contacts'),
@@ -14,8 +16,7 @@ window.addEventListener('DOMContentLoaded', () => {
         pages.forEach(item => {
             item.classList.add('hide');
             item.classList.remove('show', 'fade')
-        })
-       
+        })       
         navPages.forEach(item => {
             
             item.classList.remove('active')
@@ -27,9 +28,9 @@ window.addEventListener('DOMContentLoaded', () => {
         pages[i].classList.remove("hide");
         navPages[i].classList.add("active");
     }
-    console.log(parentPage)
+    
     parentPage.addEventListener('click', (e) => {
-        console.log(e)
+        
         if(e.target && e.target.classList.contains('navItem')){
             
             navPages.forEach((item, i) => {
@@ -40,6 +41,13 @@ window.addEventListener('DOMContentLoaded', () => {
             })
         }
     })
+
+    categoryNav.addEventListener('click', (e) => {
+        console.log(e.target.getAttribute('data-category'))
+
+    })
+
+
     hideContent();
     showPage(0);
     
